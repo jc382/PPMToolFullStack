@@ -10,8 +10,8 @@ public class Project {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String projectName;
-    private String description;
     private String projectIdentifier;
+    private String description;
     private Date start_date;
     private Date end_date;
 
